@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DREAM HOUSE</title>
+</head>
+<style>
+	
+
+
+
+
+.bird{
+         width: 70px;
+        animation-name: bird;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: forwards;
+        position: absolute;
+        top: 50px;
+
+    }
+    @keyframes bird {
+        to{
+            transform: translate(900px);
+        }
+    }
+    .aeroplane{
+         width: 300px;
+        animation-name: aeroplane;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: reverse;
+        position: absolute;
+        top: 100px;
+
+    }
+    @keyframes aeroplane {
+        to{
+            transform: translate(900px);
+        }
+    }
+   
+    .lawn{
+        width: 100%;
+        height: 30px;
+        color: white;
+        font-size: 30px;
+        background-attachment: fixed;
+        background-clip: border-box;
+        background-size: 100%
+        background-repeat: no-repeat;
+        background-position: justify;
+        background-color: burlywood;
+    }
+
+    .moving{
+        width: 300px;
+        animation-name: moving;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+    }
+    @keyframes moving {
+        to{
+            transform: translate(900px);
+        }
+    }
+    .movingly{
+
+        width: 100%;
+        animation-name: moving;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+        position: absolute;
+        top: -25px;
+    }
+    @keyframes moving {
+        to{
+            transform: translate(900px);
+        }
+    }
+
+
+   .t1{
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        /*background-color: green;*/
+        border-right: thick solid green;
+        border-left: thick solid orange;
+        border-top: thick solid red;
+        border-bottom: thick solid blue;
+        position: absolute;
+        top: 25px;
+        left:10px;
+       animation-name: rgtTire;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes rgtTire {
+        to{
+            transform: rotate(360deg);
+            
+        }
+    }
+
+     .t2{
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        border-right: thick solid green;
+        border-left: thick solid orange;
+        border-top: thick solid red;
+        border-bottom: thick solid blue;
+        position: absolute;
+        top: 25px;
+        left:70px;
+        animation-name: rgtTire;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes rgtTire {
+        to{
+            transform: rotate(360deg);
+            
+        }
+    }
+
+
+   
+    .move{
+        width: 350px;
+        animation-name: moving;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        /*animation-direction: alternate;*/
+        animation-direction: reverse;
+        position: absolute;
+        top: 420px;
+    }
+    @keyframes moving {
+        to{
+            transform: translate(900px);
+        }
+    }
+   
+   .t3{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border-right: thick solid pink;
+        border-left: thick solid orange;
+        border-top: thick solid brown;
+        border-bottom: thick solid blue;
+        position: absolute;
+        top: 85px;
+        left:22px;
+        animation-name: rgtTire;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes rgtTire {
+        to{
+            transform: rotate(360deg);
+            
+        }
+    }
+
+     .t4{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border-right: thick solid yellow;
+        border-left: thick solid orange;
+        border-top: thick solid yellow;
+        border-bottom: thick solid blue;
+        position: absolute;
+        top: 85px;
+        left:200px;
+        animation-name: rgtTire;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes rgtTire {
+        to{
+            transform: rotate(360deg);
+            
+        }
+    }
+
+
+    .move2{
+        width: 350px;
+        animation-name: moving;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        /*animation-fill-mode: forwards;*/
+        animation-direction: reverse;
+        position: absolute;
+        top: 490px;
+    }
+    @keyframes moving {
+        to{
+            transform: translate(900px);
+        }
+    }
+.moveee{
+        /*width: 200px;*/
+        animation-name: m;
+        position: absolute;
+        top: 420px;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        /*animation-fill-mode: backwards;*/
+        animation-direction: reverse;
+    }
+    @keyframes m {
+        to{
+            transform: translate(900px);
+        }
+    }
+
+
+    .move3{
+        width: 300px;
+        animation-name: moving;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+        position: absolute;
+        top: 565px;
+    }
+    @keyframes moving {
+        to{
+            transform: translate(900px);
+        }
+    }
+
+     .move4{
+        width: 300px;
+        animation-name: moving;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+        position: absolute;
+        top: 560px;
+    }
+    @keyframes moving {
+        to{
+            transform: translate(900px);
+        }
+    }
+
+
+
+    .road{
+        width: 100%;
+        height: 70px;
+        color: black;
+        border-bottom:thick dashed grey;
+        background-attachment: fixed;
+        background-clip: border-box;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: justify;
+        background-color: black;
+    }
+
+
+    .road2{
+        width: 100%;
+        height: 70px;
+        border-top: thick dashed white;
+        border-bottom:thick dashed yellow;
+        color: black;
+        background-attachment: fixed;
+        background-clip: border-box;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: justify;
+        background-color: black;
+    }
+
+
+    .road3{
+        width: 100%;
+        height: 70px;
+        border-bottom:thick dashed grey;
+        color: black;
+        background-attachment: fixed;
+        background-clip: border-box;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: justify;
+        background-color: black;
+    }
+
+
+    .road4{
+        width: 100%;
+        height: 70px;
+        /*border-top:thick dashed grey;*/
+        color: black;
+        background-attachment: fixed;
+        background-clip: border-box;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: justify;
+        background-color: black;
+    }
+
+
+
+
+	
+</style>
+<body>
+    <audio src="zuzuzu.mp3" controls autoplay loop></audio>
+    <div class="back"><img src="myhouse.jpg" alt="" width="100%" height="300px"></div>
+       <div class="lawn"><center>Welcome Home</center></div> 
+
+
+        <div class="road">
+            <div class="moving">
+            <div class="car">
+                <img src="img4.png" alt="" width="100px" height="50px">
+            </div>
+
+            <div class="RightTire">
+                <div class="t1"></div>
+            </div>
+             <div class="RightTire">
+                <div class="t2"></div>
+
+            </div>
+            <div class="movingly">
+            <div class="car">
+                <img src="bike.png" alt="" width="100px" height="100px">
+            </div>
+       
+        </div> 
+</div>
+<div class="road2">
+    <div class="move">
+            <div class="car2">
+                <img src="road2.png" alt="" width="300px" height="120px">
+            </div>
+        
+        </div>
+                <div class="moveee">
+            <div class="car2">
+                <img src="police.png" alt="" width="300px" height="150px">
+            </div>
+            </div>
+</div>
+
+
+       <div class="road3">
+    <div class="move2">
+            <div class="car2">
+                <img src="road3A.tank.png" alt="" width="200px" height="150px">
+            </div></div>
+   
+</div>
+
+<div class="road4">
+    <div class="move3">
+        <img src="truck3.png" alt="" width="200px" height="150px">
+            </div></div>
+
+                <div class="road44">
+                    <div class="move4">
+                         <img src="road33.png" alt="" width="200px" height="150px">
+                </div>
+                </div>
+   
+        
+       
+        
+        </div>
+</div>
+        
+ <div class="aeroplane"><img src="aeroplane2.png" alt="" width="100%" height="100px"></div>
+        
+        <div class="bird"><img src="img1.png" alt="" width="100%" height="70px"></div>
+ 
+ 
+        
+    </body>
+</html>
